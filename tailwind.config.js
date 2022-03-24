@@ -1,4 +1,5 @@
 module.exports = {
+    mode: 'jit',
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
@@ -10,9 +11,10 @@ module.exports = {
                 cont3: '#f928a7',
                 high1: '#d0282a',
                 stable: '#56aad0',
-                network1: '#fefefd',
-                network2: '#26235a',
-                network3: '#e5e3e3',
+                network1: '#f8f8da',
+                network2: '#103d4c',
+                network3: '#797cc8',
+                network4: '#fcb3c9',
                 love: '#6c0d2e',
             },
         },
